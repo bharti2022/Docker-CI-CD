@@ -1,8 +1,9 @@
 FROM node:17
 
-WORKDIR /app
+WORKDIR /app/
 
-COPY . ./
+COPY . .
+
 
 RUN npm i
 
