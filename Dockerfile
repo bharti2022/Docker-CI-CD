@@ -6,5 +6,5 @@ COPY ./ ./
 
 RUN npm i
 
-ENTRYPOINT ["npm", "start"]
+ENTRYPOINT ["npm", "build"]
 
