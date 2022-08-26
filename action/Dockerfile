@@ -2,7 +2,7 @@ FROM node:17
 
 WORKDIR /app
 
-COPY . ./
+COPY package.json ./
 
 RUN npm i
 
