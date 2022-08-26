@@ -2,8 +2,9 @@ FROM node:17
 
 WORKDIR /app
 
-COPY . .
+COPY . ./
 
+RUN ls 
 
 RUN npm i
 

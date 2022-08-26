@@ -10,7 +10,7 @@ jobs:
       - name: clone repository
         uses: actions/checkout@v2
       - name: docker
-        uses: ./action
+        uses: ./
       - name: use node  version node.js 17.x
         uses: actions/setup-node@v1
         with:
