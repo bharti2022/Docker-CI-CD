@@ -8,5 +8,7 @@ RUN ls
 
 RUN npm i
 
-ENTRYPOINT ["npm","run-script", "build"]
+ENTRYPOINT ["npm","run-scripts", "build"]
+
+CMD npm start
 
