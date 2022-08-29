@@ -8,5 +8,5 @@ RUN ls
 
 RUN npm i
 
-ENTRYPOINT ["npm","run", "build"]
+ENTRYPOINT ["npm","run-script", "build"]
 
